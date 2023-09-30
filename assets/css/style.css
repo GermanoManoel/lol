@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f1c57;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(230, 230, 230);
+    height: 600px;
+    min-width: 1150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 12px 8px 3px rgba(0, 0, 0, 0.185);
+}
+
+.secao-formulario{
+    background-color: #ffffff;
+    width: 24rem;
+}
+
+.logo{
+    margin: 3rem 5rem 0 5rem;
+}
+
+.logo img{
+    height: 25px;
+    display: block;
+    margin: auto;
+}
+
+.logar{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1.5rem; 
+    text-align: center;
+}
+
+form{   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top:15px;
+}
+
+input{
+    height: 35px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+    text-indent: .2rem;
+    background-color: #dad7d75d;
+    padding: 10px;
+}
+
+input::placeholder{
+    font-size: .6rem;
+    font-weight: bold;
+}
+
+.formas_de_logar {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+}
+
+.formas_de_logar .btn{
+    width: 50px;
+    padding: 4px 8px;
+    box-shadow: 2px 2px 4px #00000018;
+    transition: 1s ease;
+}
+
+.formas_de_logar .btn:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+
+.icones-botao{
+    height: 13px;
+}
+
+.fecebook{
+    background-color: #3959e7;
+    border: none;
+    border-radius: 3px;
+}
+
+.google{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+.apple{
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+}
+
+.xbox{
+    background-color: #fa70ee;
+    border: none;
+    border-radius: 3px;
+    filter: invert(1);
+}
+
+.manter-o-login{
+    display: flex;
+}
+
+.manter-o-login #manter-logado{
+    height: 13px;
+    margin-left: -90px;
+}
+
+.manter-o-login #manter-logado:hover{
+    cursor: pointer;
+}
+
+.manter-o-login label{
+    font-size: 11px;
+    margin-left: -6.3rem;
+    font-weight: bold;
+}
+
+.secao-formulario .entrar{
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-formulario .botao-enter{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #96959565;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #96959565;
+    transition: 1s;
+}
+
+.secao-formulario .botao-enter:hover{
+    cursor: pointer;
+    background-color: #be2c2c;
+    color: #ffffff;
+    border: none;
+}
+
+.botao-enter > i{
+    font-size: 1.5rem;
+}
+
+.secao-formulario .nao-consegue-entrar{
+    font-size: 9px;
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+a{
+    color: #3b3a3a6c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.secao-formulario .criar-conta{
+    font-size: 9px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
+
+.criar-conta .versao{
+    position:fixed; 
+    right: 55rem; 
+    
+}
+
+.privacidadePolitica-servico{
+    font-size: 8px;
+    text-align: center;
+    padding: 0 10px;
+    color: #3b3a3a65;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.privacidadePolitica-servico a{
+    text-decoration: underline;
+}
+
+/* section imagem */
+.imagem{
+    height: 100%;
+    width: 100%;
+    background: url(../img/EGS_LeagueofLegends_RiotGames_S1_2560x1440-2935d0a3e332decb8e727fe56789b6ab.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem .minimizar-e-fechar{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 5px;
+}
+
+.imagem .minimizar-e-fechar a{
+    color:white;
+}
+
+.imagem .minimizar-e-fechar i{
+   font-size: .8rem;
+}
+
+
+
